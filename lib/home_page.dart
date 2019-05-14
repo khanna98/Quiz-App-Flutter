@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Quiz App"),
         elevation: 0.0,
+        centerTitle: true,
       ),
       body: RefreshIndicator(
         onRefresh: fetchQuestions,
